@@ -62,7 +62,7 @@ def CerrarCuentas(lCuentas):
   vUbica=BuscarCuenta(lCuentas,vCuenta)
 #print(vUbica)
 if vUbica== -1:
-print("Cuenta no existe")
+ print("Cuenta no existe")
 else:
 if lCuentas[vUbica][4]>0:
 print("La cuenta tiene saldo dsiponible, debe hacer el retiro previo parapoder inactivar...")
